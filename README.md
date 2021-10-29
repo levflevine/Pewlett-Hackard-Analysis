@@ -47,12 +47,18 @@ To accomplish the project goals, an SQL employee database had to be built.
 
 4. Created a Mentorship Eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965
 
-![mentorship_elegibility](Resources/mentorship_elegibility.png)
+![mentorship_eligibility](Resources/mentorship_eligibility.png)
 
 ## Summary 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
+In total, **90,398 roles** will need to backfilled to cover for the upcoming retirements.
+
+![total_retiring](Resources/del_3_retiring_emp.png)
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+There are very few qualified retirement-ready employees to 
+
+![mentors_per_dept](Resources/del_3_mentors_per_dept.png)
