@@ -25,7 +25,7 @@ FROM retirement_titles as rt
 ORDER BY rt.emp_no ASC,
 		rt.to_date DESC;
  
-SELECT * FROM unique_titles LIMIT 10;
+SELECT * FROM unique_titles LIMIT 20;
 
 SELECT COUNT(ut.emp_no),
 			ut.title
@@ -34,7 +34,7 @@ FROM unique_titles as ut
 GROUP BY ut.title
 ORDER BY 1 DESC;
 
-SELECT * FROM retiring_titles LIMIT 10;
+SELECT * FROM retiring_titles;
 
 -- Deliverable 2 --
 
@@ -45,7 +45,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	de.from_date, 
 	de.to_date, 
 	t.title
-INTO mentorship_eligibilty
+INTO mentorship_eligibility
 FROM employees as e
 INNER JOIN dept_emp as de
 ON e.emp_no = de.emp_no
@@ -54,3 +54,5 @@ ON e.emp_no = t.emp_no
 WHERE (de.to_date = '9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no ASC;
+
+SELECT * FROM mentorship_eligibility LIMIT 20;
