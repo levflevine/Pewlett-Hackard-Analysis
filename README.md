@@ -33,19 +33,19 @@ To accomplish the project goals, an SQL employee database had to be built.
 
 ## Results
 
-1. Created the Retirement Titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955
+- Created the Retirement Titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955
 
 ![retirement_titles](Resources/retirement_titles.png)
 
-2. Removed duplicates and kept only the most recent title of each employee in the Unique Titles table
+- Removed duplicates and kept only the most recent title of each employee in the Unique Titles table
 
 ![unique_titles](Resources/unique_titles.png)
 
-3. Retrieved the number of employees by their most recent job title who are about to retire into the Retiring Titles table
+- Retrieved the number of employees by their most recent job title who are about to retire into the Retiring Titles table
 
 ![retiring_titles](Resources/retiring_titles.png)
 
-4. Created a Mentorship Eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965
+- Created a Mentorship Eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965
 
 ![mentorship_eligibility](Resources/mentorship_eligibility.png)
 
@@ -53,7 +53,7 @@ To accomplish the project goals, an SQL employee database had to be built.
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-In total, **90,398 roles** will need to backfilled to cover for the upcoming retirements.
+In total, **90,398 roles** will need to be backfilled to cover for the upcoming retirements.
 
 ![total_retiring](Resources/del_3_retiring_emp.png)
 
