@@ -59,7 +59,7 @@ In total, **90,398 roles** will need to be backfilled to cover for the upcoming 
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-There are very few qualified retirement-ready employees to mentor the next generation: only **1,549 potential mentors** for the **90,398 roles** that need to be hired and mentored.
+There are very few qualified retirement-ready employees to mentor the next generation: only **1,549 potential mentors** for the **90,398 roles** that need to be hired and mentored. The companhy needs to urgently consider other employee groups (potentially younger employees) for mentorship roles, engage external consultants, and/or start outsourcing some of the jobs.
 
 The breakdown of mentors and retirees by Department is presented in the table below. The source code of the query is [here](Queries/Deliverable_3.sql)
 
